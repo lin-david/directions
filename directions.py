@@ -23,7 +23,7 @@ def make_html(all_legs):
 key = 'AIzaSyB7vwusDtgJbI-pT608kav57um2MAQAwDw'
 gmaps = googlemaps.Client(key)
 
-print('This application will direct you to the nearest coffee shop, donut shop, and then to the ClickTime office in San Francisco!')
+print('This application will direct you to the nearest coffee shop, donut shop, and then to your desired destination!')
 mode_transportation = input('Is your transportation mode walking, bicycling, or transit? ')
 
 # Make sure that response is acceptable
