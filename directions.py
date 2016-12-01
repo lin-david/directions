@@ -56,7 +56,7 @@ wp.append(coffee['formatted_address'])
 wp.append(donuts['formatted_address'])
 html = ''
 
-# If using transit, walk to coffee and donut shop first, then transit to ClickTime
+# If using transit, walk to coffee and donut shop first, then transit to destination
 if mode_transportation == 'transit':
     directions_result = gmaps.directions(origin,
                                          wp[1],
